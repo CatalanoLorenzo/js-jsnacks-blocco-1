@@ -7,9 +7,15 @@ console.log(numbertot)
 
  */
 let i = 0
-while(i < 10){
+/* while(i < 10){
     const usernumber = Number(prompt('scrivi un numero'))
     numbertot += usernumber
     i++
 } 
 console.log(numbertot)
+ */
+do{
+    const usernumber = Number(prompt('scrivi un numero'))
+    numbertot += usernumber
+    i++
+}while(i < 10)
